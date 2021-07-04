@@ -27,6 +27,10 @@ node dist/app | tsc --watch
 
 ### Configure database and its respective models
 
+```
+create a folder called db and inside a connection.ts file with the following configuration
+```
+
 ## additional configuration
 
 ```
