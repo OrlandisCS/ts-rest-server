@@ -25,6 +25,22 @@ npm install
 node dist/app | tsc --watch
 ```
 
+### Configure database and its respective models
+
+## additional configuration
+
+```
+import { Sequelize } from 'sequelize';
+
+const db = new Sequelize('db', 'name', 'password', {
+	host: 'localhost',
+	dialect: 'mysql',
+});
+
+export default db;
+
+```
+
 ## Run tests
 
 ```sh
@@ -35,13 +51,14 @@ npm run test
 
 👤 **Orlandis Cuevas**
 
-* Website: orlandisdev.com
-* Github: [@orlandisCS](https://github.com/orlandisCS)
-* LinkedIn: [@orlandisdev](https://linkedin.com/in/orlandisdev)
+- Website: orlandisdev.com
+- Github: [@orlandisCS](https://github.com/orlandisCS)
+- LinkedIn: [@orlandisdev](https://linkedin.com/in/orlandisdev)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
